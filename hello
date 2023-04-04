@@ -1,0 +1,81 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>survey Form</title>  
+<style>
+    body{
+    background-image:url('1000_F_299682452_ZYrV0cPdP4pDqIYDE7SdZ3uWAXS7zQLO.jpg');
+    background-repeat: repeat;
+   /* width: 1000px;*/
+    height: 800px; 
+
+}
+   .content{
+   /* text-align: center;
+    align-items: center; */
+    padding-left: 200px;
+    padding-right: 140px;
+    color: azure;
+    font-size: larger;
+    font-weight: bolder;
+     font-family: comic sans;
+   }
+   h2{
+    text-align: center;
+    font-family:courier ;
+    color: cornsilk;
+    font-weight: bold;
+   }
+  
+</style>
+<script>
+    function msg(){
+    alert("Your Form has been Submitted Successfully");
+}
+</script>
+
+</head>  
+<body>  
+    
+    <form>
+            <h2><u>Enquiry Form
+            </u></h2>
+    <div class="content">
+        <label>Name</label> <br><br>
+        <input type="name" name="name" placeholder="Enter your Name" class="box"><b><br>
+        <label>Email</label> <br><br>
+        <input type="name" name="name" placeholder="Enter your email id" class="box"><b><br>
+    <b>1. what is the main problem faced by the people because of air pollution?</b> <br><br>
+        <input type="text" size="40px"  placeholder="Your Answer" ><br><hr>
+    <b>2. if you get chance to contribute for making india pollution free will you?</b><br>
+        <input type="radio" id="yes" name="12">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="NO" name="12">
+        <label for="NO">No</label><br>
+        <input type="radio" id="cannot say" name="12">
+        <label for="cannot say">Can't Say</label><br><hr>
+    <b>3. Which type of pollution is main concern for you?</b><br>
+        <input type="text" size="40px" placeholder="Your Answer"><br><hr>
+    <b>4.What are the main cause of air pollution?</b><br>
+        <input type="text" size="40px" placeholder="Your Answer"><br><hr>
+    <b>5.What are the economic imapacts of marine litter? </b><br>
+        <input type="text" size="40px" placeholder="Your Answer"><br><hr>
+    <b>6.What are the big problems humans face because of pollution?</b><br>
+        <input type="text" size="40px" placeholder="Your Answer"><br><br><hr>
+    <b>7.What do you think, is main cause of air pollution in the following?</b><br>
+       <input type="checkbox">Industrial smoke
+       <input type="checkbox">Burning house waste
+       <input type="checkbox">Smoke
+       <input type="checkbox">Vehicle emissions<br><hr>
+    <b>8.How does air pollution affect earth's climate?</b><br>
+      <input type="text" size="40px" placeholder="your Answer"><br><hr>
+    <b>9.How does air pollution affect our health?</b><br>
+      <input type="text" size="40px" placeholder="your Answer"><br><hr>
+    <b>10.How you can spread awareness through social media?</b><br>
+      <input type= "text" size="40px" placeholder="your Answer"><br><hr>
+      <input type="button" value="Submit" placeholder="Submit" onclick="msg()">
+      
+      </div>   
+    </form>
+   </body>
+ </html>
